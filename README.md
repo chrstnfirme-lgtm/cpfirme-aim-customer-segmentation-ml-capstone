@@ -99,22 +99,21 @@ customer-segmentation-ml-capstone/
 │   ├── capstone python script.ipynb  # Modeling & evaluation
 │   └── Technical Deck.ipynb  # Technical presentation
 │
-├── src/
-│   ├── preprocessing.py
-│   ├── clustering.py
-│   ├── evaluation.py
-│   └── fairness.py
-│
 ├── models/
 │   ├── kmeans_k2.joblib
 │   └── dbscan_eps0.3_ms10.joblib
 │
 ├── artifacts_step4/  # Step 4 modeling outputs (metrics, configs, labels)
 │   ├── metrics/
-│   └── profiling/
+│       ├── dbscan_sweep_metrics.xlsx
+│       ├── hierarchical_sweep_metrics.xlsx
+│       ├── kmeans_sweep_metrics.xlsx
+│       └── model_comparison_best.xlsx
+│   
 │
 └── report/
-    └── Capstone Project Write-up.pdf
+    ├── Capstone Project Write-up.pdf
+    └── Business Deck.pdf
 ```
 
 ## Reproducibility
