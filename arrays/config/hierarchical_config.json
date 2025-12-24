@@ -1,0 +1,8 @@
+{
+  "model": "AgglomerativeClustering",
+  "pca_components": 10,
+  "max_samples": 3000,
+  "best_k": 2,
+  "best_linkage": "ward",
+  "note": "Used PCA + subsampling due to O(n^2) memory complexity"
+}
