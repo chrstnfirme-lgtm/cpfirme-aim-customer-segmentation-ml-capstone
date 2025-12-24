@@ -103,12 +103,24 @@ customer-segmentation-ml-capstone/
 │   ├── kmeans_k2.joblib
 │   └── dbscan_eps0.3_ms10.joblib
 │
-├── artifacts_step4/  # Step 4 modeling outputs (metrics, configs, labels)
+├── arrays/  # Step 4 modeling outputs (metrics, configs, labels)
+│   ├── config/
+│   │   ├── dbscan_eps0.3_ms10_config.json
+│   │   ├── hierarchical_config.json
+│   │   ├── kmeans_k2_config.json
+│   │   └── step4_run_config.json
+│   ├── labels/
+│   │   ├── dbscan_eps0.3_ms10_labels.npy
+│   │   └── kmeans_k2_labels.npy
 │   ├── metrics/
-│       ├── dbscan_sweep_metrics.xlsx
-│       ├── hierarchical_sweep_metrics.xlsx
-│       ├── kmeans_sweep_metrics.xlsx
-│       └── model_comparison_best.xlsx
+│   │   ├── dbscan_sweep_metrics.xlsx
+│   │   ├── hierarchical_sweep_metrics.xlsx
+│   │   ├── kmeans_sweep_metrics.xlsx
+│   │   └── model_comparison_best.xlsx
+│   └── graphs/
+│       ├── dbscan_kdist_k5.png
+│       ├── kmeans_elbow.png
+│       └── kmeans_silhouette.png
 │   
 │
 └── report/
